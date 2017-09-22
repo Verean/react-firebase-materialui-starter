@@ -1,8 +1,8 @@
 ## ReactJS + Firebase + Material-UI | Authentication Starter
 
-### [Demo](https://verean.github.io/authdemo/) ###
-
 ***Created by Verean***
+
+### [Demo](https://verean.github.io/authdemo/) ###
 
 Basic email authentication using [create-react-app](https://github.com/facebookincubator/create-react-app)
 
@@ -68,9 +68,9 @@ index.js
 
 const globalTheme = createMuiTheme({
 	palette: {
-    type: 'dark',
-	  primary: grey,
-    error: deepOrange
+        type: 'dark',
+        primary: grey,
+        error: deepOrange
 	},
 });
 ```
