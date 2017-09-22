@@ -82,7 +82,7 @@ const globalTheme = createMuiTheme({
 
 
 
-Clone or download, then issue command beloew in package directory with no arguments
+Clone or download, then issue command below in package directory with no arguments
 
  	npm install
     
