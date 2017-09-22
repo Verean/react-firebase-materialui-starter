@@ -1,5 +1,7 @@
 ## ReactJS + Firebase + Material-UI | Authentication Starter
 
+### [Demo](https://verean.github.io/authdemo/) ###
+
 ***Created by Verean***
 
 Basic email authentication using [create-react-app](https://github.com/facebookincubator/create-react-app)
