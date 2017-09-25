@@ -9,6 +9,7 @@ Basic email authentication using [create-react-app](https://github.com/facebooki
 * ReactJS: 15.6.1
 * Firebase: 4.3.1
 * Material-UI: 1.0.0-beta.10
+* React Router Dom: 4.2.2
 
 Built in logic for error message handling for all forms (login, sign up, forgot password)
 
