@@ -66,7 +66,7 @@ const ForgotForm = (props) => {
 					className={props.classes.textField}
 					margin="normal"
 					fullWidth
-					error={props.msg && true}
+					error={props.msg !== 'Password reset email sent.' && true}
 					value={props.email}
 					onChange={props.updateEmail}
 				/>
