@@ -9,7 +9,7 @@ import { grey, deepOrange } from 'material-ui/colors/';
 const globalTheme = createMuiTheme({
 	palette: {
     type: 'dark',
-	  primary: grey,
+	primary: grey,
     error: deepOrange
 	},
 });
