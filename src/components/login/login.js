@@ -4,8 +4,7 @@ import {
 	auth, 
 	signIn, 
 	createEmailPassword, 
-	passwordUpdate,
-	signOut
+	passwordUpdate 
 	} from '../../firebase'
 import LoginForm from './loginForm'
 import SignUpForm from './signUpForm'
@@ -38,7 +37,6 @@ class Login extends Component {
 			} else {
 				this.setState({
 					authed: false,
-					loading: false
 				})
 			}
 		})
@@ -105,13 +103,10 @@ class Login extends Component {
 	}
 	
     render () {
-		//place homepage or dashboard here to redirect after login
-		if(this.state.authed){
-			alert("Logged In");
-			signOut();
-
-			// return <Redirect to="/dashboard"/>
-		}
+		// place homepage or dashboard here to redirect after login
+		// if(this.state.authed){
+		// 	return <Redirect to="/dashboard"/>
+		// }
 		return (			
 			<div>
 				<LoginForm
